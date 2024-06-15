@@ -49,7 +49,7 @@ body::-webkit-scrollbar {
 	background-color: var(--bg-secondary);
 	flex: 1;
 	border-radius: 20px;
-	padding: 6px;
+	padding: 16px 20px;
 }
 .dashboard-main {
 	display: flex;

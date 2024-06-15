@@ -1,0 +1,98 @@
+/** @format */
+
+.dashboard_page {
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+}
+/* -------------------------------------------------
+    first nav ribbon
+  --------------------------------------------------
+*/
+
+.status_bar_nav {
+	height: 28px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+}
+.status_bar_nav > div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+	height: 100%;
+}
+.status_bar_nav img {
+	border-radius: 50%;
+	cursor: pointer;
+}
+.add {
+	background-color: #f3efee;
+	padding: 1px;
+	border-radius: 50%;
+	height: 28px;
+	width: 28px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.span_profile {
+	background-color: #fbfbfb;
+	padding: 2px 16px 2px 2px;
+	height: 100%;
+	display: flex;
+	height: 26px;
+	align-items: center;
+	white-space: nowrap;
+	gap: 6px;
+	box-shadow: 0 0 0 2px #f3efee;
+	border-radius: 15px;
+}
+.span_logo {
+	background-color: #fbfbfb;
+	height: 26px;
+	width: 26px;
+	border-radius: 50%;
+	display: flex;
+	padding: 2px;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 0 0 2px #f3efee;
+	cursor: pointer;
+}
+.span_logo > span {
+	background-color: #26292b;
+	height: 22px;
+	width: 22px;
+	border-radius: 50%;
+	font-weight: bold;
+	color: #fbfbfb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.nav_action_icons {
+	padding: 2px 6px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 18px;
+}
+.single_nav_action_icons {
+	background-color: #fbfbfb;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 0 0 2px #f3efee;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+}
+/* -------------------------------------------------
+    second nav ribbon
+  --------------------------------------------------
+*/
