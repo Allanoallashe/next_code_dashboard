@@ -10,6 +10,10 @@ import { HiOutlineUpload } from "react-icons/hi";
 import image1 from "../ui/assets/pic5.jpg";
 import image2 from "../ui/assets/pic1.jpg";
 import image3 from "../ui/assets/pic3.jpg";
+import Newreport from "./components/newreport";
+import Revenuecard from "./components/revenuecard";
+import Leftcard from "./components/leftcard";
+import Rightcard from "./components/rightcard";
 
 function Dashboard() {
 	return (
@@ -51,7 +55,7 @@ function Dashboard() {
 							height={26}
 							alt="image"
 						/>
-						Mikaso A
+						Mikaso A.
 					</span>
 					<div className="span_logo">
 						<span>C</span>
@@ -63,7 +67,12 @@ function Dashboard() {
 					<HiOutlineUpload className="single_nav_action_icons" />
 				</div>
 			</nav>
-			<div>Dashboard page</div>
+			<Newreport />
+			<Revenuecard />
+			<div className="mega_card">
+				<Leftcard />
+				<Rightcard />
+			</div>
 		</div>
 	);
 }

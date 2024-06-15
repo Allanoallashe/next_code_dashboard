@@ -3,7 +3,7 @@
 .dashboard_page {
 	display: flex;
 	flex-direction: column;
-	gap: 18px;
+	gap: 24px;
 }
 /* -------------------------------------------------
     first nav ribbon
@@ -93,6 +93,47 @@
 	font-weight: bolder;
 }
 /* -------------------------------------------------
-    second nav ribbon
+    second nav ribbon #new report section
   --------------------------------------------------
 */
+.new_report {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.new_report h2 {
+	color: #c1bebc;
+}
+.time_frame {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	flex-wrap: wrap;
+}
+.toggle_switch {
+	background-color: #26292b;
+	height: 21px;
+	width: 38px;
+	border-radius: 20px;
+	position: relative;
+	cursor: pointer;
+}
+.toggle_switch > div {
+	height: 18px;
+	width: 18px;
+	border-radius: 50%;
+	position: absolute;
+	top: 1.5px;
+	right: 1.5px;
+	background-color: #fbfbfb;
+}
+
+/* 
+mega card section
+
+*/
+.mega_card {
+	display: flex;
+	gap: 16px;
+	font-size: 13px;
+}

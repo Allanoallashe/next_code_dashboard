@@ -26,7 +26,13 @@ body {
 	background-color: var(--bg-color);
 	color: var(--color-shark);
 }
-p {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	margin: 0;
 }
 body::-webkit-scrollbar {
@@ -50,6 +56,11 @@ body::-webkit-scrollbar {
 	flex: 1;
 	border-radius: 20px;
 	padding: 16px 20px;
+	overflow-y: scroll;
+}
+.dashboard-children::-webkit-scrollbar {
+	width: none;
+	display: none;
 }
 .dashboard-main {
 	display: flex;

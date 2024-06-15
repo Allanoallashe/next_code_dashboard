@@ -1,0 +1,137 @@
+/** @format */
+
+.revenue_container {
+	display: flex;
+	align-items: center;
+	gap: 22px;
+	flex-direction: column;
+	font-size: 14px;
+}
+.revenue_card_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+.revenue_box1 {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+}
+.revenue_box1 > div {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.revenue_box2 {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+.revenue_box2_article_box {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+}
+.revenue_box2_article_box article {
+	background-color: #fbfbfb;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 10px 8px;
+	width: 140px;
+	border-radius: 10px;
+	box-shadow: 0px -1px 0 4px #e5e5e5;
+}
+.revenue_box2_article_box article:nth-child(2) {
+	background-color: #26292b;
+	color: #fbfbfb;
+	gap: 12px;
+}
+.revenue_box2_article_box article > div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+.revenue_box2_article_box article > div > span {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+.revenue_box2_article_box article > div img {
+	border-radius: 50%;
+	cursor: pointer;
+}
+.revenue_box2_article_box2 {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+.revenue_box2_article_box2 article {
+	background-color: #fbfbfb;
+	display: flex;
+	flex-direction: column;
+	gap: 11px;
+	padding: 10px 8px;
+	width: 66px;
+	border-radius: 10px;
+	box-shadow: 0px 0 0 2px #e4e3e3;
+	align-items: center;
+}
+.revenue_box2_article_box2 article:nth-child(2) {
+	box-shadow: 0px 0 1px 1px #ee416c;
+}
+
+/* 
+ revenue ribbon section
+*/
+.revenue_ribbon {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+.revenue_ribbon1 {
+	background-color: #dededd;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex: 1;
+	border-radius: 22px;
+	padding: 1px 2px;
+	gap: 6px;
+}
+.ribbon_details {
+	width: 60px;
+	background-color: #26292b;
+	color: #fbfbfb;
+	padding: 11px 11px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.revenue_ribbon1_items {
+	background-color: #fbfbfb;
+	padding: 4px 8px 4px 4px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 16px;
+	gap: 16px;
+}
+.last_ribbon_item {
+	background-color: transparent;
+	gap: 50px;
+}
+.revenue_ribbon1_items span:nth-child(1) {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+.revenue_ribbon1_items img {
+	border-radius: 50%;
+	cursor: pointer;
+}
