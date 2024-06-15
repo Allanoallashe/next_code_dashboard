@@ -12,6 +12,7 @@ import {
 } from "react-icons/io5";
 import { CiStar, CiUndo } from "react-icons/ci";
 import { FaRegFolderOpen } from "react-icons/fa";
+import { MdOutlineKeyboardArrowUp } from "react-icons/md";
 
 function Sidebar() {
 	return (
@@ -28,7 +29,10 @@ function Sidebar() {
 							<IoCopyOutline className="each_mid_icon" />
 						</div>
 						<div className="last_icons">
-							<IoChatbubblesSharp className="each_last_icon" />
+							<span className="chat_notification">
+								<IoChatbubblesSharp className="chat_icon" />
+								<span>0</span>
+							</span>
 							<IoSettingsSharp className="each_last_icon" />
 						</div>
 					</div>
@@ -75,10 +79,46 @@ function Sidebar() {
 									}}
 								/>
 							</p>
+							<div className="dashboard_accordion_group">
+								<span>
+									<hr></hr> Codename
+								</span>
+								<span>
+									<hr></hr>
+									<span className="accordion_toggle_span">
+										shared with me <MdOutlineKeyboardArrowUp />
+									</span>
+								</span>
+								<div className="test2">
+									<span className="accordion_small_section3">
+										<small>
+											<hr></hr> Cargo2go
+										</small>
+										<small style={{ width: "100%" }}>
+											{" "}
+											<hr></hr>
+											<span className="accordion_notification">
+												Cloudz3r
+												<span>3</span>
+											</span>
+										</small>
+										<small>
+											{" "}
+											<hr></hr> Idioma
+										</small>
+										<small>
+											<hr></hr> Syllables
+										</small>
+										<small>
+											<hr></hr> X-Ob
+										</small>
+									</span>
+								</div>
+							</div>
 						</div>
 						<div className="reports_accordion">
 							<p>
-								Reports{" "}
+								Reports
 								<IoIosAdd
 									style={{
 										backgroundColor: "#fbfbfb",
@@ -87,9 +127,55 @@ function Sidebar() {
 									}}
 								/>
 							</p>
-						</div>
-						<div className="folders">
-							<FaRegFolderOpen /> Manage Folders
+							<div className="dashboard_accordion_group">
+								<span>
+									<hr></hr>{" "}
+									<span className="accordion_toggle_span">
+										share with me <MdOutlineKeyboardArrowUp />
+									</span>
+								</span>
+								<div className="test3">
+									<span className="accordion_small_section3">
+										<small>
+											<hr></hr> Deals by User
+										</small>
+										<small>
+											<hr></hr> Deal Duration
+										</small>
+									</span>
+								</div>
+								<span>
+									<hr></hr>{" "}
+									<span
+										style={{ marginTop: 5 }}
+										className="accordion_toggle_span">
+										My Reports <MdOutlineKeyboardArrowUp />
+									</span>
+								</span>
+								<div className="test4">
+									<span className="accordion_small_section4">
+										<small>
+											<hr></hr>Emails Received
+										</small>
+										<small>
+											<hr></hr>Deal Duration
+										</small>
+										<small>
+											<hr></hr>New Reports
+										</small>
+										<small style={{ width: "100%" }}>
+											<hr></hr>
+											<span className="accordion_notification">
+												Analytics
+												<span>7</span>
+											</span>
+										</small>
+									</span>
+								</div>
+							</div>
+							<div className="manage_folders">
+								<FaRegFolderOpen /> Manage Folders
+							</div>
 						</div>
 					</div>
 				</div>

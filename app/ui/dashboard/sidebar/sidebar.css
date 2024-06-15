@@ -33,6 +33,7 @@
 	border-radius: 50%;
 	cursor: pointer;
 	color: #26292b;
+	font-weight: bold;
 }
 .icon_active {
 	background-color: #ce325a;
@@ -45,7 +46,7 @@
 	gap: 18px;
 	justify-content: flex-end;
 }
-.bar_icons span {
+.bar_icons > span {
 	background-color: #26292b;
 	height: 27px;
 	width: 27px;
@@ -84,7 +85,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 8px;
+	gap: 7px;
 	width: 100%;
 }
 .side_taxt_one {
@@ -94,15 +95,142 @@
 	gap: 5px;
 }
 
+/* --------------------------------------------------
+		dashboard accordion group
+	-------------------------------------------------------
+*/
 .dashboard_accordion,
 .reports_accordion {
 	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
 }
-.dashboard_accordion p,
-.reports_accordion p {
+.dashboard_accordion > p,
+.reports_accordion > p {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	width: 95%;
 	cursor: pointer;
+}
+
+.dashboard_accordion_group {
+	font-size: 13px;
+	/* background-color: green; */
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	border-left: solid 1.5px #c1bebc;
+}
+.dashboard_accordion_group hr {
+	border: solid 1px #c1bebc;
+	width: 7px;
+	margin: 0;
+}
+.dashboard_accordion_group > span,
+.dashboard_accordion_group small {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 3px;
+}
+
+.dashboard_accordion_group div {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	margin-left: 11px;
+	border-left: solid 1.5px #c1bebc;
+}
+.test4,
+.test3,
+.test2 {
+	display: flex;
+	align-items: flex-start;
+	margin-left: 11px;
+	border-left: solid 1.5px #c1bebc;
+}
+.test4 {
+	height: 81.5px;
+}
+.test3 {
+	height: 38px;
+}
+.test2 {
+	height: 103px;
+}
+.accordion_small_section4,
+.accordion_small_section3,
+.accordion_small_section2 {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	align-items: flex-start;
+	margin-top: 11px;
+	width: 100%;
+}
+.accordion_small_section3 {
+	margin-top: 10.5px;
+	width: 100%;
+}
+.accordion_toggle_span {
+	width: 86%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+}
+.accordion_notification {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 86%;
+}
+.accordion_notification > span {
+	background-color: #ce325a;
+	color: #fbfbfb;
+	height: 16px;
+	width: 16px;
+	cursor: pointer;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.manage_folders {
+	white-space: nowrap;
+	margin-top: 3px;
+}
+
+.chat_notification {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	height: 32px;
+	width: 32px;
+	background-color: #fbfbfb;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.chat_notification > span {
+	position: absolute;
+	font-size: 10px;
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	top: 0;
+	right: -2px;
+	background-color: #ce325a;
+	color: #fbfbfb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.chat_icon {
+	color: #26292b;
+	border-radius: 50%;
+	font-weight: bold;
+	font-size: 18px;
 }
