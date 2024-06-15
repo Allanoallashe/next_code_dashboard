@@ -5,11 +5,12 @@
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	gap: 8px;
+	gap: 6px;
 }
 .left_card_container_block1 {
 	display: flex;
 	gap: 5px;
+	width: 100%;
 }
 .card_one,
 .card_two {
@@ -83,5 +84,91 @@
 
 /* block 2 */
 .left_card_container_block2 {
-	background-color: green;
+	width: 100%;
+	background-color: #dededd;
+	border-radius: 20px;
+}
+.first_ribbon {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+}
+.first_ribbon_leftbox {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.first_ribbon_rightbox {
+	background-color: #fbfbfb;
+	padding: 2px;
+	display: flex;
+	align-items: center;
+	gap: 3px;
+	border-radius: 10px;
+}
+.first_ribbon_rightbox span {
+	background-color: #c1bebc;
+	padding: 5px 10px;
+	border-radius: 8px;
+}
+.first_ribbon_rightbox span:nth-child(1) {
+	background-color: #26292b;
+	color: #fbfbfb;
+}
+
+.second_mega_ribbon {
+	display: flex;
+	align-items: flex-start;
+}
+.ribbon_red_card {
+	background-color: #ce325a;
+	color: #fbfbfb;
+	width: 130px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.average_monthly_span {
+	width: 40px;
+	height: 130px;
+	position: relative;
+}
+.average_monthly_span span {
+	position: absolute;
+	transform: rotate(-90deg);
+	white-space: nowrap;
+	left: -10px;
+	bottom: 20px;
+	width: 100%;
+}
+.average_monthly_description {
+	flex: 1;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 16px;
+}
+.revenue_graph {
+	flex: 1;
+	background-color: transparent;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.revenue_graph span {
+	padding: 10px 0 10px 0;
+	width: 96%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	border-top: 1px solid #fbfbfb;
+	opacity: 0.7;
+}
+.revenue_graph span:last-child {
+	border-bottom: 1px solid #fbfbfb;
 }

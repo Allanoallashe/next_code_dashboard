@@ -268,7 +268,65 @@ export default function Leftcard() {
         -------------------------------------------------------------------------
        */}
 
-			<div className="left_card_container_block2">block 2</div>
+			<div className="left_card_container_block2">
+				<div className="first_ribbon">
+					<div className="first_ribbon_leftbox">
+						<Image
+							width={24}
+							height={24}
+							src={dribble}
+						/>
+						<div>
+							<span style={{ opacity: 0.6 }}>Platform Value</span>
+							<p
+								style={{
+									display: "flex",
+									alignItems: "center",
+									gap: 4,
+									cursor: "pointer",
+								}}>
+								Dribble <IoIosArrowDown />
+							</p>
+						</div>
+					</div>
+					<div className="first_ribbon_rightbox">
+						<span>Revenue</span>
+						<span>Leads</span>
+						<span>W/L</span>
+					</div>
+				</div>
+				<div className="second_mega_ribbon">
+					<div className="ribbon_red_card">
+						<div className="average_monthly_span">
+							<span style={{ opacity: 0.7 }}>Average Monthly</span>
+						</div>
+						<div className="average_monthly_description">
+							<div>
+								<span style={{ opacity: 0.7 }}>Revenue</span>
+								<p>$18,582</p>
+							</div>
+							<div>
+								<span style={{ opacity: 0.7 }}>Leads</span>
+								<p>
+									373 <span style={{ opacity: 0.7 }}>97/276</span>
+								</p>
+							</div>
+							<div>
+								<span style={{ opacity: 0.7 }}>Win/Lose</span>
+								<p>
+									16% <span style={{ opacity: 0.7 }}>51/318</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div className="revenue_graph">
+						<span>$14,500</span>
+						<span>$11,000</span>
+						<span>$7,500</span>
+						<span>$4,000</span>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 }
