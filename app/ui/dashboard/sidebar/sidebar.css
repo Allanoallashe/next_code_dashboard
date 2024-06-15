@@ -1,0 +1,108 @@
+/** @format */
+.side_bar {
+	padding: 0 6px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.bar_icons {
+	height: 100%;
+	width: 60px;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 40px;
+}
+.bar_icons .icons {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	width: 100%;
+}
+.mid_icons {
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.each_mid_icon,
+.each_last_icon {
+	background-color: #fbfbfb;
+	font-size: 19px;
+	padding: 6px;
+	border-radius: 50%;
+	cursor: pointer;
+	color: #26292b;
+}
+.icon_active {
+	background-color: #ce325a;
+	color: #fbfbfb;
+}
+.last_icons {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+	justify-content: flex-end;
+}
+.bar_icons span {
+	background-color: #26292b;
+	height: 27px;
+	width: 27px;
+	font-size: 24px;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	color: #fbfbfb;
+	cursor: pointer;
+}
+.bar_icons_text {
+	height: 100%;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 12px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.bar_icons_text section {
+	white-space: nowrap;
+	display: flex;
+	height: 30px;
+	align-items: center;
+	width: 100%;
+	gap: 8px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.side_text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
+	width: 100%;
+}
+.side_taxt_one {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.dashboard_accordion,
+.reports_accordion {
+	width: 100%;
+}
+.dashboard_accordion p,
+.reports_accordion p {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 95%;
+	cursor: pointer;
+}
