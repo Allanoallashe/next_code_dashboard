@@ -165,10 +165,16 @@
 .accordion_small_section2 {
 	display: flex;
 	flex-direction: column;
-	gap: 8px;
+	gap: 3.5px;
 	align-items: flex-start;
 	margin-top: 11px;
 	width: 100%;
+}
+.accordion_small_section3 {
+	gap: 1px;
+}
+.accordion_small_section4 {
+	gap: 3px;
 }
 .accordion_small_section3 {
 	margin-top: 10.5px;
