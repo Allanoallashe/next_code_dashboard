@@ -87,6 +87,7 @@
 	align-items: flex-start;
 	gap: 7px;
 	width: 100%;
+	font-weight: bold;
 }
 .side_taxt_one {
 	display: flex;
@@ -105,6 +106,7 @@
 	display: flex;
 	flex-direction: column;
 	gap: 8px;
+	font-weight: bold;
 }
 .dashboard_accordion > p,
 .reports_accordion > p {
@@ -117,7 +119,6 @@
 
 .dashboard_accordion_group {
 	font-size: 13px;
-	/* background-color: green; */
 	display: flex;
 	flex-direction: column;
 	gap: 8px;
@@ -201,6 +202,7 @@
 .manage_folders {
 	white-space: nowrap;
 	margin-top: 3px;
+	opacity: 0.6;
 }
 
 .chat_notification {

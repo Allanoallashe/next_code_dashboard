@@ -11,6 +11,7 @@ import dribble from "../../ui/assets/dribble.svg";
 import instagram from "../../ui/assets/instagram.webp";
 import behance from "../../ui/assets/behance.png";
 import google from "../../ui/assets/google.png";
+import pic from "../../ui/assets/pic4.jpg";
 
 export default function Leftcard() {
 	return (
@@ -60,7 +61,7 @@ export default function Leftcard() {
 								}}>
 								<Image
 									src={dribble}
-									width={20}
+									width={23}
 									height={20}
 								/>
 								<span style={{ color: "#A29392" }}>Dribble</span>
@@ -76,6 +77,7 @@ export default function Leftcard() {
 										borderRadius: "10px",
 										boxShadow: "0 0 0 3px #dededd",
 										width: 20,
+										opacity: 0.8,
 									}}>
 									43%
 								</span>
@@ -106,6 +108,7 @@ export default function Leftcard() {
 										borderRadius: "10px",
 										boxShadow: "0 0 0 3px #dededd",
 										width: 20,
+										opacity: 0.8,
 									}}>
 									27%
 								</span>
@@ -136,6 +139,7 @@ export default function Leftcard() {
 										borderRadius: "10px",
 										boxShadow: "0 0 0 3px #dededd",
 										width: 20,
+										opacity: 0.8,
 									}}>
 									11%
 								</span>
@@ -166,6 +170,7 @@ export default function Leftcard() {
 										borderRadius: "10px",
 										boxShadow: "0 0 0 3px #dededd",
 										width: 20,
+										opacity: 0.8,
 									}}>
 									7%
 								</span>
@@ -320,10 +325,105 @@ export default function Leftcard() {
 						</div>
 					</div>
 					<div className="revenue_graph">
-						<span>$14,500</span>
-						<span>$11,000</span>
-						<span>$7,500</span>
-						<span>$4,000</span>
+						<span className="revenue_graph_fore_span_child">$14,500</span>
+						<span className="revenue_graph_fore_span_child">$11,000</span>
+						<span className="revenue_graph_fore_span_child">$7,500</span>
+						<span className="revenue_graph_fore_span_child last_span_child">
+							$4,000
+						</span>
+
+						<div className="revenue_absolute_graph">
+							<div className="absolute_revbox">
+								<div className="relative_revbars">
+									<div
+										className="child_one"
+										style={{ height: "60%" }}>
+										<span>$6,901</span>
+									</div>
+									<Image
+										src={pic}
+										width={18}
+										height={18}
+									/>
+								</div>
+								<div className="relative_revbars">
+									<div style={{ height: "44%" }}></div>
+									<Image
+										src={pic}
+										width={18}
+										height={18}
+									/>
+								</div>
+								<div className="relative_revbars">
+									<div style={{ height: "20%" }}></div>
+									<Image
+										src={pic}
+										width={18}
+										height={18}
+									/>
+								</div>
+							</div>
+							<div className="absolute_revbox">
+								<div className="relative_revbars">
+									<div
+										className="child_one"
+										style={{ height: "90%" }}>
+										<span>$11,035</span>
+									</div>
+									<Image
+										src={pic}
+										width={18}
+										height={18}
+									/>
+								</div>
+								<div className="relative_revbars">
+									<div style={{ height: "62%" }}></div>
+									<Image
+										src={pic}
+										width={18}
+										height={18}
+									/>
+								</div>
+								<div className="relative_revbars">
+									<div style={{ height: "42%" }}></div>
+									<Image
+										src={pic}
+										width={18}
+										height={18}
+									/>
+								</div>
+							</div>
+							<div className="absolute_revbox">
+								<div className="relative_revbars">
+									<div
+										className="child_one"
+										style={{ height: "78%" }}>
+										<span>$9,288</span>
+									</div>
+									<Image
+										src={pic}
+										width={18}
+										height={18}
+									/>
+								</div>
+								<div className="relative_revbars">
+									<div style={{ height: "36%" }}></div>
+									<Image
+										src={pic}
+										width={18}
+										height={18}
+									/>
+								</div>
+								<div className="relative_revbars">
+									<div style={{ height: "50%" }}></div>
+									<Image
+										src={pic}
+										width={18}
+										height={18}
+									/>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

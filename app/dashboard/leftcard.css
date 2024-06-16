@@ -120,6 +120,7 @@
 .second_mega_ribbon {
 	display: flex;
 	align-items: flex-start;
+	height: max-content;
 }
 .ribbon_red_card {
 	background-color: #ce325a;
@@ -158,9 +159,11 @@
 	height: 100%;
 	display: flex;
 	flex-direction: column;
+	position: relative;
 	align-items: flex-start;
 }
-.revenue_graph span {
+
+.revenue_graph_fore_span_child {
 	padding: 10px 0 10px 0;
 	width: 96%;
 	display: flex;
@@ -169,6 +172,71 @@
 	border-top: 1px solid #fbfbfb;
 	opacity: 0.7;
 }
-.revenue_graph span:last-child {
+.last_span_child {
 	border-bottom: 1px solid #fbfbfb;
+}
+
+/* 
+  absolute revenue bars
+*/
+.revenue_absolute_graph {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	height: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin-left: 16px;
+}
+.absolute_revbox {
+	display: flex;
+	gap: 2px;
+	height: 80%;
+}
+.relative_revbars {
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+.relative_revbars div {
+	background-color: #acacac;
+	width: 23px;
+	height: 50%;
+	position: relative;
+	border-radius: 6px;
+}
+.child_one {
+	background-image: linear-gradient(
+		110deg,
+		#acacac 25%,
+		#fbfbfb 25%,
+		#fbfbfb 50%,
+		#acacac 50%,
+		#acacac 75%,
+		#fbfbfb 75%,
+		#fbfbfb 100%
+	);
+	background-size: 4.26px 11.7px;
+}
+.relative_revbars div > span {
+	position: absolute;
+	top: -26px;
+	left: -10px;
+	z-index: 3;
+	background-color: #ce325a;
+	padding: 2px;
+	border-radius: 5px;
+	color: #fbfbfb;
+	font-size: 12px;
+}
+
+.relative_revbars img {
+	position: absolute;
+	border-radius: 50%;
+	box-shadow: 0 0 0 2px #fbfbfb;
+	bottom: -10px;
+	left: 2.8px;
 }

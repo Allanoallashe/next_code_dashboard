@@ -48,7 +48,7 @@ function Sidebar() {
 									display: "flex",
 									alignItems: "center",
 									gap: 5,
-									opacity: 0.7,
+									opacity: 0.6,
 									fontSize: "12px",
 								}}>
 								<CiStar />
@@ -59,7 +59,7 @@ function Sidebar() {
 									display: "flex",
 									alignItems: "center",
 									gap: 5,
-									opacity: 0.7,
+									opacity: 0.6,
 									fontSize: "12px",
 								}}>
 								<CiUndo />
@@ -160,7 +160,7 @@ function Sidebar() {
 										<small>
 											<hr></hr>Deal Duration
 										</small>
-										<small>
+										<small style={{ color: "#ce325a" }}>
 											<hr></hr>New Reports
 										</small>
 										<small style={{ width: "100%" }}>
